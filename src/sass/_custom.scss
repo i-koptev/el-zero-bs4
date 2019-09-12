@@ -1,0 +1,28 @@
+.hero {
+    height: 50vh;
+}
+
+.congrats {
+    font-size: calc(7vw + 1rem);
+}
+
+
+.sometag {
+    font-size: 7rem;
+    @include media-breakpoint-up(sm) {
+    }
+    @include media-breakpoint-up(md) {
+        // width: 90vw;
+
+    }
+    @include media-breakpoint-down(lg) {
+        // width: 85vw;
+
+    }
+    @include media-breakpoint-only(xl) {
+        // width: 80vw;
+    }
+    @include media-breakpoint-up(xxl) {
+        // width: 75vw;
+    }
+}

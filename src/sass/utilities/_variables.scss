@@ -1,0 +1,74 @@
+/* ============================================================== 
+                            COLORS
+================================================================= */
+$theme1-compound-dark-blue: #003347;
+$theme1-compound-navy: #2b596b;
+$theme1-compound-green: #00d19a;
+$theme1-compound-orange: #f44d3d;
+$theme1-compound-bordeaux: #940f29;
+
+$theme-black-color: #222;
+$theme-dark-grey-color: #222;
+$theme-grey: #555;
+$theme-light-grey-color: #aaa;
+$theme-white-color: #eee;
+
+$site-accent-color: #009ea3;
+$site-headings-color: $theme1-compound-navy;
+
+$main-nav-bg-color: rgba(darken($site-accent-color, 10%), 0.9);
+$main-nav-item-color: $theme-light-grey-color;
+$main-nav-active-item-color: $theme-white-color;
+$main-nav-text-color: $theme-dark-grey-color;
+
+$theme-colors: (
+    'site-accent-color': $site-accent-color,
+    'main-nav-bg-color': $main-nav-bg-color,
+    'main-nav-text-color': $main-nav-text-color,
+);
+
+/* ============================================================== 
+                    NAVBAR
+================================================================= */
+
+$navbar-dark-color: $theme1-compound-green;
+$navbar-dark-hover-color: lighten($theme1-compound-green, 15%);
+$navbar-dark-active-color: lighten($theme1-compound-green, 30%);
+$navbar-dark-disabled-color: rgba(darken($theme1-compound-green, 10%), 0.7);
+
+$navbar-dark-toggler-border-color: transparent;
+$navbar-dark-brand-color: $navbar-dark-active-color;
+$navbar-dark-brand-hover-color: $navbar-dark-hover-color;
+
+/* ============================================================== 
+                    FONTS AND TYPOGRAPHY
+================================================================= */
+
+// $font-family-sans-serif: 'Roboto', 'serif';
+
+/* ============================================================== 
+                            BUTTONS
+================================================================= */
+
+$enable-rounded: false;
+
+/* ============================================================== 
+                            GRID
+================================================================= */
+
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px,
+);
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1340px,
+);

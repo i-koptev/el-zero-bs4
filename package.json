@@ -1,0 +1,32 @@
+{
+  "name": "el-zero-bs4",
+  "version": "0.0.1",
+  "description": "Gulp - based Bootstrap 4 starter kit",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "gulp develop"
+  },
+  "author": "Igor Koptev",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "autoprefixer": "^9.6.1",
+    "bootstrap": "^4.3.1",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifycss": "^1.1.0",
+    "imagemin-jpeg-recompress": "^6.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}

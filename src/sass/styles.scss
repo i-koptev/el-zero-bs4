@@ -1,0 +1,19 @@
+@import 'utilities/variables';
+
+
+// import from bootstrap only what you need
+@import 'vendors/bootstrap.scss';
+
+// bootstrap components tuning
+@import 'components/card';
+@import 'components/buttons';
+@import 'components/navigation';
+
+
+@import 'base/typography';
+
+
+
+
+// my custom styles
+@import 'custom';
